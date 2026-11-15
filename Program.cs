@@ -87,7 +87,7 @@ namespace C48_G03_EF03
 
         static void SeedStudentsAndEnrollments(AppDbContext context)
         {
-            if (!context.Students.Any())
+if (!context.Students.Any())
             {
                 context.Students.AddRange(
                     new Student { FullName = "Youssef Adel", Email = "youssef.adel@mail.com", DateOfBirth = new DateTime(2002, 3, 14) },
